@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PATH: World Trade Center to Newark"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.0134, 40.7127],
+          [-74.0294, 40.7347],
+          [-74.0334, 40.7505],
+          [-74.1724, 40.7357]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PATH: Journal Square to 33rd Street"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.0625, 40.7334],
+          [-74.0507, 40.7427],
+          [-74.0323, 40.7484],
+          [-74.0014, 40.7505]
+        ]
+      }
+    }
+  ]
+}
