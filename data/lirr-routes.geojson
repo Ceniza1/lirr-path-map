@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LIRR: Atlantic Terminal to Jamaica"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.9772, 40.6837],
+          [-73.9576, 40.6869],
+          [-73.9197, 40.6998],
+          [-73.8088, 40.7003]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LIRR: Jamaica to Ronkonkoma"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.8088, 40.7003],
+          [-73.7613, 40.7338],
+          [-73.6227, 40.7462],
+          [-73.1123, 40.8088]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LIRR: Jamaica to Long Beach"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.8088, 40.7003],
+          [-73.7296, 40.6651],
+          [-73.6654, 40.5889]
+        ]
+      }
+    }
+  ]
+}
