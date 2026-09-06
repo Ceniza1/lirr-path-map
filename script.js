@@ -1,4 +1,9 @@
-const map = L.map("map").setView([40.72, -73.95], 10);
+const map = L.map("map", {
+  preferCanvas: true,
+  zoomAnimation: false,
+  fadeAnimation: false,
+  markerZoomAnimation: false
+}).setView([40.72, -73.95], 10);
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; OpenStreetMap contributors"
