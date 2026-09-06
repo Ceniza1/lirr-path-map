@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>LIRR + PATH Family Map</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIINfQ8Jf5l4tF7N5q5lKJ5m9B5M5g5M5g="
+    crossorigin=""
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>LIRR + PATH Family Map</h1>
+    <p>Highlighted routes and important stations</p>
+  </header>
+
+  <main>
+    <div id="map"></div>
+
+    <div class="legend">
+      <div>
+        <span class="color-box path-color"></span>
+        PATH
+      </div>
+      <div>
+        <span class="color-box lirr-color"></span>
+        LIRR
+      </div>
+    </div>
+  </main>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
